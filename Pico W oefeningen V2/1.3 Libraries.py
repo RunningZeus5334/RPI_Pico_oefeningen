@@ -2,11 +2,11 @@
 # Hiervoor importeren we 'libraries'. 
 # We importeren nu de library 'time' om te kunnen wachten tussen verschillende lijnen code.
 
-import time
+from time import sleep
 
 print("We wachten nu 1 seconde.")
 
-time.sleep(1)
+sleep(1)
 
 print("1 seconde is voorbij gegaan.")
 
